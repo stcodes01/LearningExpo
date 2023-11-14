@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLOG PAGE</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="design.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<!--/navigation-->
+<nav>
+    <a href="index.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3TMV7pWAx7ktrKHN4jL0mpzhe6kux122noA&usqp=CAU" alt="learningExpo"></a>  <div class="navigation">
+    <ul>
+        <i id="close" class="fa fa-times-circle" alt=""></i>
+
+        <li><a  href="index.html">HOME</a></li>
+        <li><a  href="about.html">ABOUT</a></li>
+        <li><a class="active" href="blog.html">BLOG</a></li>
+        <li><a href="courses.html">COURSES</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+    </ul>
+<img id="menubtn" src="https://res.cloudinary.com/practicaldev/image/fetch/s--z6vsThgm--/c_imagga_scale,f_auto,fl_progressive,h_500,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/xehrnzwqvf86lb8m3h0c.png" alt="">
+   </div>
+</nav>
+<!--home-->
+<section id="bloghome">
+    <h2>BLOGS....</h2>
+</section>
+<section id="blogcont">
+    <div class="blogs">
+        <div class="post">
+            <img src="https://chenhuijing.com/assets/images/posts/shadow-effect/design.png" alt="">
+        <h3>CSS card shadow effects </h3>
+        <p>Card-style components are pretty much still a thing these days, and there
+             are many ways to make a bunch of identical rectangles look prettier. I’m quite <br>fond of the pop art, or maybe it’s more of a c
+            omic book style art direction that uses thick bold outlines and bright colours.
+            To summarise in words, the card has a solid 4px border and a border-radius of 8px, <br><br><br>and the card’s shadow too has a solid 4px border with 8px border-radius and is offset from the card by 14px on both the x and y axes.
+
+         
+            Here’s the bit that will probably make you check the documentation if you do not use box-shadow often:
+            <Br><br>
+               If you use 3 length values, they mean the x-offset, the y-offset and the blur-radius respectively, while the spread-radius defaults to 0.
+    <br><br>        If you use 4 length values, they mean the x-offset, the y-offset, the blur-radius and the spread-radius.
+        
+        </p>    
+        
+        <a href="https://chenhuijing.com/blog/css-card-shadow-effects/">Read more</a>
+
+            <div class="post2">
+                <img src="https://miro.medium.com/max/1838/1*c_fiB-YgbnMl6nntYGBMHQ.jpeg" alt="">
+            <h3>Machine Learning the what & why?  </h3>
+            <p>Machine learning (ML) is a type of artificial intelligence (AI)
+                 that allows software applications to become more accurate at 
+                predicting outcomes without being explicitly programmed to do so.
+                 Machine learning algorithms use historical data as input to predict new output values.
+            <br<br><br>
+            Machine learning is important because it gives enterprises a view of trends in customer behavior and 
+            <br>business operational patterns, as well as supports the development of new products. Many of <br><br>
+            today's leading companies, such as Facebook, Google and Uber, make machine learning a central part of their operations.<br>
+             Machine learning has become a significant competitive differentiator for many companies.
+            
+                </p>    
+            
+            <a href="https://www.techtarget.com/searchenterpriseai/definition/machine-learning-ML#:~:text=Machine%20learning%20(ML)%20is%20a,to%20predict%20new%20output%20values.">Read more</a>
+            </div>
+        
+    
+        </div>
+    </div>
+
+    <div class="cate">
+        <h2>Categories</h2>
+        <hr>
+        <a href="#">web development</a>
+        <hr>
+        <a href="#">Software development</a>
+        <hr>
+        <a href="#">Machine Learning</a>
+        <hr>
+        <a href="#">Artificial Intelligence</a>
+        <hr>
+        <a href="#">Cloud Computing</a>
+        <hr>
+        <a href="#">MERN Stack</a>
+        <hr>
+        <a href="#">Competitive Coding</a>
+        <hr>
+        
+    </div>
+    
+</section>
+
+      <!--footer-->
+   <footer id="blogfooter">
+    <div class="footercol">
+        <h1>CONTACT US:</h1>
+     <div class="social">
+        <ul>
+            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-google-plus-official" aria-hidden="true"></i>
+            </a></li>
+            <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+          </ul>
+     </div> 
+    </div>
+   </footer>
+   <!--jquery-->
+   <script>
+    $('#menubtn').click(function(){
+$('nav .navigation ul').addClass('active')
+    });
+    $('#close').click(function(){
+$('nav .navigation ul').removeClass('active')
+    });
+    </script>
+    </body>
+</html>

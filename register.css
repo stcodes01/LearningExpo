@@ -1,0 +1,89 @@
+*{
+   margin-left: 105px;
+   margin-top: 16px;
+    background-color: rgb(22, 21, 21);
+}
+#Form{
+background-color: aliceblue;
+    position: relative;
+    margin-left: 200px;
+  text-align: center;
+  size: 20px; 
+  margin-top: 300px;
+  display: flex;
+  border-color: rgb(252,198,2);
+ 
+}
+#sign-up-att{
+ font-family: 'Times New Roman', Times, serif;
+ font-size: 100px;
+    color: aliceblue;
+
+font-size: .9rem;
+    display: flex;
+    flex-direction: column;
+    
+    margin-top: 20px ;
+}
+#key{
+    color: aliceblue;
+    border-radius: 10px;
+    padding: 12px;
+    padding-right: 40px;
+    transition: 0.4s ease;
+}
+#key:hover{
+    box-shadow: 2px 2px 20px rgba(240, 197, 4, 0.457);   
+  
+}
+#key1{
+    input {
+      
+        border-radius: 50%;
+       
+        border: 2px solid #999;
+        transition: 0.2s all linear;
+    
+      }
+      
+    accent-color: rgb(252,198,2);
+    size: 300px;
+    color: white;
+    display: table-header-group;
+}
+#key1 input:hover{
+    box-shadow: 2px 2px 20px rgba(240, 197, 4, 0.457);   
+}
+#sign-up-btn{
+margin-left: 50px;
+margin-top: 20px;
+background-color: rgb(252,198,2);  
+font-family:'Times New Roman', Times, serif;
+font-size:24px;
+padding: 12px;
+width: 130px;
+border-radius: 111px;  
+transition: 0.4s ease;
+}
+#sign-up-btn:hover{
+    box-shadow: 2px 2px 20px rgba(240, 197, 4, 0.457);
+    background-color: rgb(28, 28, 27);
+    color:white;
+}
+#sign-up-btn2{
+    margin-left: 100px;
+    background-color: rgb(252, 198, 2);  
+    font-family:'Times New Roman', Times, serif;
+    font-size:24px;
+    padding: 12px;
+    width: 130px;
+    border-radius: 111px;  
+    transition: 0.4s ease;
+
+    }
+    
+#sign-up-btn2:hover{
+    box-shadow: 2px 2px 20px rgba(240, 197, 4, 0.457);
+    background-color: rgb(28, 28, 27);
+    color:white;
+}
